@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+*{
+	background-color:lightblue;
+}
+.name{
+	color:blue;
+	font-weight:800;
+}
+.describtion{
+font-weight:700;
+	font-size:18px;
+}
+.container{
+	display:flex;
+	width:550px;
+	justify-content:center;
+}
+.left{
+	display:flex;
+	flex-direction:column;
+}
+.signup form{
+	display:flex;
+	flex-direction:column;
+}
+.signup form, input, button, .forgot{
+	background-color:white;
+}
+.signup{
+	
+}
+form{
+	padding:10px;
+}
